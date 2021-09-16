@@ -1,0 +1,23 @@
+
+Title:
+    LPC Tile Atlas
+
+Author:
+    See Attribution.txt
+
+URL:
+    https://opengameart.org/content/lpc-tile-atlas
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    The zip contains a nifty attribution file so you can drop it and forget.
+
+File(s):
+    * Atlas.zip
+
+----------------------------------------
+
+
