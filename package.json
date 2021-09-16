@@ -1,6 +1,6 @@
 {
   "name": "webeleon-node-typescript-starter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A generic starter for node js starter projects",
   "main": "dist/index.js",
   "scripts": {
