@@ -26,6 +26,7 @@ export class FighterM extends Physics.Arcade.Sprite {
   }
 
   public update() {
+    // console.log("player position", this.getBody().x, this.getBody().y);
     this.getBody().setVelocity(0);
 
     if (this.keyW?.isDown) {
