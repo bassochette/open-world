@@ -1,18 +1,18 @@
 import "phaser";
-import FpsText from "../objects/FpsText";
+import { FighterM } from "../objects/characters/FighterM";
 
 export default class MainScene extends Phaser.Scene {
-  fpsText;
-
+  private player: FighterM;
   constructor() {
-    super({ key: "MainScene" });
+    super("main-scene");
+    console.log("running main scene");
   }
 
   create() {
-    this.fpsText = new FpsText(this);
+    this.player = new FighterM(this, 100, 100);
   }
 
   update() {
-    this.fpsText.update();
+    this.player.update();
   }
 }

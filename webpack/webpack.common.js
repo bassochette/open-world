@@ -51,6 +51,7 @@ module.exports = {
     // new InjectManifest({
     //   swSrc: path.resolve(__dirname, "../pwa/sw.js"),
     //   swDest: "sw.js",
+    //   maximumFileSizeToCacheInBytes: 20 * 1024 * 1024,
     // }),
   ],
 };
