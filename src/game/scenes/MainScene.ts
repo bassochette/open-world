@@ -17,7 +17,9 @@ export default class MainScene extends Scene {
     console.log("running main scene");
 
     this.initMap();
+
     this.player = new FighterM(this, 526, 439);
+    this.initCamera();
 
     this.physics.add.collider(this.player, this.seaLayer);
     this.seaLayer.setCollisionBetween(391, 392);
@@ -25,6 +27,12 @@ export default class MainScene extends Scene {
 
   update() {
     this.player.update();
+  }
+
+  private initCamera() {
+    this.cameras.main.setSize(this.game.scale.width, this.game.scale.height);
+    this.cameras.main.startFollow(this.player, true, 0.09, 0.09);
+    this.cameras.main.setZoom(2);
   }
 
   private initMap() {
