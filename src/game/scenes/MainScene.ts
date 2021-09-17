@@ -23,6 +23,8 @@ export default class MainScene extends Scene {
 
     this.physics.add.collider(this.player, this.seaLayer);
     this.seaLayer.setCollisionBetween(391, 392);
+
+    this.physics.add.collider();
   }
 
   update() {
