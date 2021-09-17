@@ -16,7 +16,7 @@ export class LoadingScene extends Scene {
 
     // Maps
     this.load.image("terrain", "tilemaps/terrain_atlas.png");
-    this.load.tilemapTiledJSON("map", "maps/main.json");
+    this.load.tilemapTiledJSON("home", "maps/home.json");
   }
 
   create(): void {
