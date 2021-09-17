@@ -9,9 +9,9 @@
     "bundle": "npm run build",
     "serve": "serve dist",
     "format": "prettier --write '**/*.ts'",
-    "test": "NODE_ENV=test jest",
+    "test": "NODE_ENV=test jest --passWithNoTests",
     "test:watch": "NODE_ENV=test jest --watch",
-    "test:coverage": "NODE_ENV=test jest --coverage",
+    "test:coverage": "NODE_ENV=test jest --coverage --passWithNoTests",
     "prepare": "husky install",
     "release": "standard-version"
   },
