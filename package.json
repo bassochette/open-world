@@ -37,8 +37,8 @@
   "author": "Webeleon",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "13.1.0",
-    "@commitlint/config-conventional": "13.1.0",
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/config-conventional": "13.2.0",
     "@types/jest": "27.0.2",
     "@types/sinon": "10.0.4",
     "copy-webpack-plugin": "9.0.1",
