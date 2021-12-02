@@ -57,7 +57,7 @@
     "webpack-dev-server": "4.6.0",
     "webpack-merge": "5.8.0",
     "webpack-obfuscator": "3.5.0",
-    "workbox-webpack-plugin": "6.4.1"
+    "workbox-webpack-plugin": "6.4.2"
   },
   "lint-staged": {
     "src/**/*": "prettier --write --ignore-unknown"
