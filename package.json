@@ -49,7 +49,7 @@
     "prettier": "2.6.2",
     "sinon": "11.1.2",
     "standard-version": "9.5.0",
-    "ts-jest": "27.1.4",
+    "ts-jest": "27.1.5",
     "ts-loader": "9.3.0",
     "typescript": "4.6.4",
     "webpack": "5.72.1",
